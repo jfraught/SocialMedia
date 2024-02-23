@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Profile-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SocialMedia" customModuleProvider="target" sceneMemberID="viewController">
@@ -29,11 +29,41 @@
                                     <constraint firstAttribute="width" constant="125" id="xLe-3Q-9Vf"/>
                                 </constraints>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="klJ-nF-jLg">
-                                <rect key="frame" x="0.0" y="268" width="393" height="501"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jordan Fraughton" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5s3-qW-Aor">
+                                <rect key="frame" x="72.000000000000014" y="271" width="249.33333333333337" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="klJ-nF-jLg">
+                                <rect key="frame" x="16" y="332" width="361" height="40.666666666666686"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5s3-qW-Aor">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="501"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interesting Facts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RfS-5Q-LaH">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enjoys Swift, metal, and lifting weights. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6u-JJ-PKR">
+                                        <rect key="frame" x="0.0" y="20.333333333333314" width="361" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5bi-Sm-hQu">
+                                <rect key="frame" x="16" y="397.66666666666669" width="361" height="122.00000000000006"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Most Recent Post" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rc-wA-jot">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFb-Ru-EfW">
+                                        <rect key="frame" x="0.0" y="20.333333333333321" width="361" height="101.66666666666669"/>
+                                        <string key="text">"When a man lies, he murders some part of the world. These are the pale deaths which men miscall their lives. All this I cannot bear to witness any longer. Cannot the kingdom of salvation take me home?" - Cliff Burton</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -46,46 +76,68 @@
                         <constraints>
                             <constraint firstItem="KYE-7X-tft" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7KZ-d1-Hbu"/>
                             <constraint firstItem="KYE-7X-tft" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="IwN-JK-uyC"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="klJ-nF-jLg" secondAttribute="trailing" id="JEu-6d-aSv"/>
+                            <constraint firstItem="5s3-qW-Aor" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JnP-oT-WEb"/>
+                            <constraint firstItem="klJ-nF-jLg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Ltj-zk-Kb8"/>
                             <constraint firstItem="wGV-wM-2gW" firstAttribute="centerY" secondItem="KYE-7X-tft" secondAttribute="bottom" id="NUt-Q2-PnS"/>
-                            <constraint firstItem="klJ-nF-jLg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XEr-uM-DSk"/>
-                            <constraint firstItem="klJ-nF-jLg" firstAttribute="top" secondItem="KYE-7X-tft" secondAttribute="bottom" constant="64" id="c5x-GG-y75"/>
+                            <constraint firstItem="5bi-Sm-hQu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="RxD-9p-z9M"/>
+                            <constraint firstItem="5bi-Sm-hQu" firstAttribute="top" secondItem="klJ-nF-jLg" secondAttribute="bottom" constant="25" id="dTo-ku-Jav"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="klJ-nF-jLg" secondAttribute="trailing" constant="16" id="fCW-K0-x5L"/>
                             <constraint firstItem="KYE-7X-tft" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gJB-if-FTQ"/>
+                            <constraint firstItem="5s3-qW-Aor" firstAttribute="top" secondItem="wGV-wM-2gW" secondAttribute="bottom" constant="-533" id="hs3-Fy-Vr7"/>
+                            <constraint firstItem="klJ-nF-jLg" firstAttribute="top" secondItem="5s3-qW-Aor" secondAttribute="bottom" constant="25" id="iid-af-a2S"/>
                             <constraint firstItem="wGV-wM-2gW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lxD-wa-25q"/>
-                            <constraint firstItem="klJ-nF-jLg" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="mfv-sk-Qrn"/>
+                            <constraint firstAttribute="trailing" secondItem="5bi-Sm-hQu" secondAttribute="trailing" constant="16" id="vPe-Gw-oad"/>
                             <constraint firstItem="wGV-wM-2gW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vnS-40-wNd"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="LfC-03-NMH"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.crop.circle" catalog="system" selectedImage="person.crop.circle.fill" id="LfC-03-NMH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1066.4122137404579" y="3.5211267605633805"/>
         </scene>
-        <!--Item-->
+        <!--Posts-->
         <scene sceneID="JHq-Iw-KLJ">
             <objects>
                 <tableViewController id="ajJ-hs-USs" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="5lO-ja-8Sp">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="5lO-ja-8Sp">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="8CV-Oq-ijn">
-                                <rect key="frame" x="0.0" y="50" width="393" height="51.666667938232422"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8CV-Oq-ijn" id="erZ-hV-ZD3">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="51.666667938232422"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
+                        <sections>
+                            <tableViewSection headerTitle="Posts" id="cyy-Hf-qhc">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="133" id="8CV-Oq-ijn">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="133"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8CV-Oq-ijn" id="erZ-hV-ZD3">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="133"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q1v-IF-fS5">
+                                                    <rect key="frame" x="20" y="15.000000000000007" width="353" height="101.66666666666669"/>
+                                                    <string key="text">"When a man lies, he murders some part of the world. These are the pale deaths which men miscall their lives. All this I cannot bear to witness any longer. Cannot the kingdom of salvation take me home?" - Cliff Burton</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Q1v-IF-fS5" firstAttribute="leading" secondItem="erZ-hV-ZD3" secondAttribute="leading" constant="20" symbolic="YES" id="p4j-5a-Sii"/>
+                                                <constraint firstAttribute="trailing" secondItem="Q1v-IF-fS5" secondAttribute="trailing" constant="20" symbolic="YES" id="qn4-2D-aFP"/>
+                                                <constraint firstItem="Q1v-IF-fS5" firstAttribute="top" secondItem="erZ-hV-ZD3" secondAttribute="topMargin" constant="2" id="tBh-pE-jAw"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
                         <connections>
                             <outlet property="dataSource" destination="ajJ-hs-USs" id="vhZ-r2-K9B"/>
                             <outlet property="delegate" destination="ajJ-hs-USs" id="mTY-hH-kir"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="IHA-Wx-bbf"/>
+                    <tabBarItem key="tabBarItem" title="Posts" image="signpost.right.circle" catalog="system" selectedImage="signpost.right.circle.fill" id="IHA-Wx-bbf"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ldM-fi-6g4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -96,7 +148,7 @@
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="o16-KR-jVX" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3kO-jE-5T7">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" backgroundImage="person.crop.circle" catalog="system" id="3kO-jE-5T7">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -114,6 +166,10 @@
     <resources>
         <image name="417766_10150608143210264_1699990390_n" width="851" height="315"/>
         <image name="Screenshot 2024-02-21 at 8.07.59 AM" width="1200" height="1200"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="123"/>
+        <image name="person.crop.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="signpost.right.circle" catalog="system" width="128" height="123"/>
+        <image name="signpost.right.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
