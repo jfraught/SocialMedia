@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9319EDE2BB30F8F00F858EE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9319EDD2BB30F8F00F858EE /* Post.swift */; };
+		F9319EE02BB310A700F858EE /* PostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9319EDF2BB310A700F858EE /* PostsTableViewController.swift */; };
+		F9319EE22BB312D700F858EE /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9319EE12BB312D700F858EE /* PostTableViewCell.swift */; };
+		F9319EE42BB31F1F00F858EE /* CommentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9319EE32BB31F1F00F858EE /* CommentsTableViewController.swift */; };
+		F9319EE82BB3453500F858EE /* PostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9319EE72BB3453500F858EE /* PostTableViewController.swift */; };
 		F9C5DC0F2B83A6A400EB31A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C5DC0E2B83A6A400EB31A8 /* AppDelegate.swift */; };
 		F9C5DC112B83A6A400EB31A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C5DC102B83A6A400EB31A8 /* SceneDelegate.swift */; };
 		F9C5DC132B83A6A400EB31A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C5DC122B83A6A400EB31A8 /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F9319EDD2BB30F8F00F858EE /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F9319EDF2BB310A700F858EE /* PostsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewController.swift; sourceTree = "<group>"; };
+		F9319EE12BB312D700F858EE /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		F9319EE32BB31F1F00F858EE /* CommentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewController.swift; sourceTree = "<group>"; };
+		F9319EE72BB3453500F858EE /* PostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewController.swift; sourceTree = "<group>"; };
 		F9C5DC0B2B83A6A400EB31A8 /* SocialMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C5DC0E2B83A6A400EB31A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9C5DC102B83A6A400EB31A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,8 +69,13 @@
 				F9C5DC0E2B83A6A400EB31A8 /* AppDelegate.swift */,
 				F9C5DC102B83A6A400EB31A8 /* SceneDelegate.swift */,
 				F9C5DC122B83A6A400EB31A8 /* ViewController.swift */,
-				F9C5DC142B83A6A400EB31A8 /* Main.storyboard */,
+				F9319EDD2BB30F8F00F858EE /* Post.swift */,
+				F9319EE72BB3453500F858EE /* PostTableViewController.swift */,
+				F9319EDF2BB310A700F858EE /* PostsTableViewController.swift */,
+				F9319EE12BB312D700F858EE /* PostTableViewCell.swift */,
+				F9319EE32BB31F1F00F858EE /* CommentsTableViewController.swift */,
 				F9C5DC172B83A6A600EB31A8 /* Assets.xcassets */,
+				F9C5DC142B83A6A400EB31A8 /* Main.storyboard */,
 				F9C5DC192B83A6A600EB31A8 /* LaunchScreen.storyboard */,
 				F9C5DC1C2B83A6A600EB31A8 /* Info.plist */,
 			);
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9319EE42BB31F1F00F858EE /* CommentsTableViewController.swift in Sources */,
 				F9C5DC132B83A6A400EB31A8 /* ViewController.swift in Sources */,
 				F9C5DC0F2B83A6A400EB31A8 /* AppDelegate.swift in Sources */,
 				F9C5DC112B83A6A400EB31A8 /* SceneDelegate.swift in Sources */,
+				F9319EDE2BB30F8F00F858EE /* Post.swift in Sources */,
+				F9319EE82BB3453500F858EE /* PostTableViewController.swift in Sources */,
+				F9319EE02BB310A700F858EE /* PostsTableViewController.swift in Sources */,
+				F9319EE22BB312D700F858EE /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
